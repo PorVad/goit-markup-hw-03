@@ -29,7 +29,7 @@ a {
     text-decoration: none;
 }
 
-.header_container, .header_list, .features_list, .team_list, .portfolio_list{
+.features_list, .team_list, .portfolio_list{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +40,7 @@ a {
 }
 
 .container{
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -55,6 +56,7 @@ a:hover {
 }
 
 .header_list, .address_list{
+    display: flex;
     list-style: none;
     gap: 40px;
 }
@@ -74,11 +76,6 @@ a:hover {
 
 .address{
     font-style: normal;
-}
-
-.address_list{
-    display: flex;
-    gap: 40px;
 }
 
 .address_contact{
