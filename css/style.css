@@ -29,10 +29,25 @@ a {
     text-decoration: none;
 }
 
-header, .header_nav, .header_list, .address_list, .features_list, .team_list, .portfolio_list{
+.header_container, .header_list, .features_list, .team_list, .portfolio_list{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
 }
 
 a:hover {
@@ -50,6 +65,7 @@ a:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header_list_a:focus{
@@ -58,6 +74,11 @@ a:hover {
 
 .address{
     font-style: normal;
+}
+
+.address_list{
+    display: flex;
+    gap: 40px;
 }
 
 .address_contact{
@@ -79,6 +100,7 @@ a:hover {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo_p{
