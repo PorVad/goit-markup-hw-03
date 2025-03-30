@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-.features_list, .team_list, .portfolio_list{
+.team_list, .portfolio_list{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -152,6 +152,7 @@ p {
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    border: none;
 }
 
 .order_service_btn:hover {
@@ -162,18 +163,37 @@ p {
     background-color: #404BBF;
 }
 
+.features{
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .features_list{
+    display: flex;
     list-style: none;
     gap: 24px;
     margin: 156px 120px;
 }
 
-.features_strategy{
+.features_strategy, .features_punctuality, .features_dilidence, .features_technologies{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: calc((100% - 72px) / 4);
 }
 
 .features_strategy_text, .features_punctuality, .features_dilidence, .features_technologies, .team_text{
@@ -197,6 +217,7 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team {
