@@ -182,7 +182,8 @@ p {
     display: flex;
     list-style: none;
     gap: 24px;
-    margin: 156px 120px;
+    margin: 0;
+    padding: 0;
 }
 
 .features_skil{
@@ -191,7 +192,7 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .features_skil_text, .team_text{
